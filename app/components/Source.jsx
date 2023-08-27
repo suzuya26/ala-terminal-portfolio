@@ -4,7 +4,7 @@ export default function Source() {
     const source = filterDataByCommand('source')
     return (
         <div className="font-ubuntu">
-            <h3 className="font-semibold text-slate-400">Social Media</h3>
+            <h3 className="font-semibold text-slate-400">Source Code</h3>
             {source.map((item, index) => (
                 <div key={index} className="py-2">
                     <div className="grid grid-cols-3">
