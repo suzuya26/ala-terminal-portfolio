@@ -1,0 +1,360 @@
+[
+    {
+        "command": "about",
+        "description": "-- to learn about me",
+        "content": [
+            {
+                "title": "About Me",
+                "caption": "A fresh graduate from Surabaya - Indonesia, who has have learned and developed skills in backend development, including programming languages and database management. I also have a strong interest in how to understand system needs, analyse requirements, and collaborate with teams to develop effective solutions. At the same time, I am interested in learning and implementing cloud solutions to improve application scalability and performance."
+            }
+        ]
+    },
+    {
+        "command": "education",
+        "description": "-- to see my education history",
+        "content": [
+            {
+                "title": "Institut Teknologi Sepuluh Nopember – Surabaya, Indonesia",
+                "caption": "Bachelor’s degree in information system - GPA: 3.57/4.00",
+                "periode": "Aug 2019 – Sep 2023",
+                "info": {
+                    "title": "Related Courses",
+                    "caption": [
+                        "Database System (Database Development Cycle, SQL Programming).",
+                        "Software Requirement Engineering (Software SDLC).",
+                        "Web Programming (HTML, CSS, JavaScript, PHP).",
+                        "Software Development (Iconix Process, Laravel).",
+                        "User Interface and Experience (Design Thinking, Prototyping, Figma).",
+                        "Digital Business (Knowledge Crowdsourcing E-commerce).",
+                        "Web Technology (Web Semantics, Linked Data, Graph, Neo4J).",
+                        "Database Technology (RDBMS, NoSQL, Polyglot Persistence DB)."
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "command": "experience",
+        "description": "-- to see my work experience",
+        "content": [
+            {
+                "title": "Back End Developer Intern, PT Adma Digital Solusi Surabaya.",
+                "periode": "Aug 2022 - Dec 2022",
+                "info": {
+                    "title": "Task Details",
+                    "caption": [
+                        "Collaborate with other divisions in create and develop web application and API using Laravel PHP Framework.",
+                        "Code design form figma to web components using Bootstrap + Livewire.",
+                        "Creating Logic Function for dynamic interaction.",
+                        "Creating endpoints in the form of APIs in each system or application.",
+                        "Integration of APIs from third parties.",
+                        "Bug fixes on existing apps."
+                    ]
+                }
+            },
+            {
+                "title": "Assistant Lecturer of Enterprise System",
+                "periode": "May 2022 - Jun 2022",
+                "info": {
+                    "title": "Task Details",
+                    "caption": [
+                        "Assisted and assessed students in learning enterprise course systems.",
+                        "Host games for ERPSIM competition among classes in that semester."
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "command": "bootcamp",
+        "description": "-- to see my cleared bootcamp program",
+        "content": [
+            {
+                "title": "FGA Scalable Web Service with Golang, Hacktiv 8.",
+                "periode": "Mar 2023- Apr 2023",
+                "info": {
+                    "title": "Course Details",
+                    "caption": [
+                        "Understand the basic logic of GO.",
+                        "Understand about packages & tools in Go Programming.",
+                        "Understand about OOP Go Program with Struct Implementation.",
+                        "Understand how Go-Routines and Channels work.",
+                        "Understand the Key Concepts of Microservices.",
+                        "Understand and be able to implement Web Server/Service for Go APIs."
+                    ]
+                }
+            },
+            {
+                "title": "MKBM Studi Independent - Fullstack Developer, Binar Academy.",
+                "periode": "February 2022- July 2022",
+                "info": {
+                    "title": "Course Details",
+                    "caption": [
+                        "Understand the basic capabilities for creating Web Apps.",
+                        "Understand the basic logic of JavaScript.",
+                        "Apply OOP and DOM in web development.",
+                        "Design Database Model, API Architecture and Documentation.",
+                        "Create web views using React.Js.",
+                        "Perform unit testing and deployment.",
+                        "Collaborate in the development and iteration of digital products (web applications) through the Git repository."
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "command": "project",
+        "description": "-- to see list of my projects",
+        "content": [
+            {
+                "title": "Cloud Database Research Study Case of ITS FRS Service for Undergraduate Thesis",
+                "info": {
+                    "title": "Details",
+                    "caption": [
+                        "Research about scalability of data-intensive apps like FRS ITS web app with a focus on improving scalability when accessed by many concurrent users by migrating to a cloud database.",
+                        "Identifying problems that occur related to scalability in the FRS ITS service when accessed by many users.",
+                        "Designing solutions using several databases such as CloudSQL, AlloyDB, Firestore, and Redis, and implementing other solutions such as queues with pub sub and message queues in the GCP ecosystem.",
+                        "Reengineering web applications with JavaScript programming language and Express.js framework to align cloud solutions.",
+                        "Create specifications for the reengineered web application, including data model design and technical architecture based on ICONIX Process.",
+                        "Performed web application deployment process and created unit tests then performance tests with load tests using 22,000 users.",
+                        "Analyzed result of load test and calculate cost used by solutions so that the best and most cost-effective solution is determined."
+                    ]
+                }
+            },
+            {
+                "title": "MyDesktop",
+                "info": {
+                    "title": "Project Details",
+                    "caption": [
+                        "A website based on polyglot persistence for the Final Project of the Database Technology course.",
+                        "Social media-like website to share the desktop setup with other users.",
+                        "Involved as a Back-end Developer by creating RESTful API endpoints to be used on the Front End later.",
+                        "Backend Tech Stack: NodeJs, Express JS, Database : (Mongo db, Redis, Neo4j, PostgreSQL), Auth : JWT, Cloud Media : Cloudinary"
+                    ]
+                }
+            },
+            {
+                "title": "Goal Management Calculator",
+                "info": {
+                    "title": "Project Details",
+                    "caption": [
+                        "A web app that was worked on during the internship period at PT ADMA Digital Solusi that helps break down the user's dream target into more detail and measurable.",
+                        "Involved as a Web Developer, focusing on data modelling and integration with designs that have been coded, then creating function logic for dynamic displays and API calls from other application endpoints.",
+                        "Override default authentication proccess with WA otp",
+                        "Tech Stack: Laravel"
+                    ]
+                }
+            },
+            {
+                "title": "Secondhand by Kelompok 2",
+                "info": {
+                    "title": "Project Details",
+                    "caption": [
+                        "A website developed for the final project of the independent Full stack developer study at binar academy, which is an e-commerce website for selling and buying secondhanded / preloved goods.",
+                        "Involved as a Backend developer by creating RESTful API endpoints to be used in the Front End later. Then helping with data integration with Redux state management on the front end.",
+                        "Back End Tech Stack : Node Js, Express Js, Database: PostgreSql , Auth : JWT, Cloud Media : Cloudinary",
+                        "Front End Tech Stack : React Js, Redux"
+                    ]
+                }
+            },
+            {
+                "title": "Oasis Oleh Oleh",
+                "info": {
+                    "title": "Project Details",
+                    "caption": [
+                        "A digital business project for the final project of the Digital Business course which is a website in the form of Discovery e-commerce with the theme of Indonesian specialties, which aims to create a new experience in finding and buying food gifts.",
+                        "Involved as a web developer by designing and building a database system using MySQL for web applications and then validating it with user tests.",
+                        "This project was chosen as a community service project for the Enterprise Systems lab at the Department of Information Systems ITS",
+                        "Tech Stack: Laravel"
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "command": "organization",
+        "description": "-- to see my organization and volunteering participation",
+        "content": [
+            {
+                "title": "Staff of information & media division IFLS amaterasu 2020",
+                "periode": "Sep 2020 - Dec 2020",
+                "info": {
+                    "title": "Details",
+                    "caption": [
+                        "Develop long-term media and content strategies that support cabinet objectives",
+                        "Designing commemorative posts for important events such as holidays.",
+                        "Gather information on other division activities to post to social media."
+                    ]
+                }
+            },
+            {
+                "title": "Staff of fundrising division ISE 2020",
+                "periode": "Sep 2020 - Dec 2020",
+                "info": {
+                    "title": "Details",
+                    "caption": [
+                        "Collecting voluntary donations from participants or interested parties",
+                        "Create fundraising campaigns through online platforms or social media to achieve funding targets.",
+                        "Seeking sponsors or partners who are willing to provide financial support in the form of sponsorship"
+                    ]
+                }
+            },
+            {
+                "title": "Staff of enterpreneurship division HMSI ITS (Gelora Perubahan)",
+                "periode": "Feb 2021 - Dec 2021",
+                "info": {
+                    "title": "Details",
+                    "caption": [
+                        "Participate in entrepreneurship training as staff by drafting proposals and organizing events",
+                        "Conducting a survey of interest in entrepreneurship within the information systems department."
+                    ]
+                }
+            },
+            {
+                "title": "Team Leader of enterprise system's lab community service 'Oleh-Oleh team'",
+                "periode": "Jul 2022 - Okt 2022",
+                "info": {
+                    "title": "Details",
+                    "caption": [
+                        "Directed team in web application development for Discovery e-commerce with the theme of Indonesian specialties.",
+                        "Review the curated data regarding Indonesian specialties.",
+                        "Review code of the web application also help resolve bug fixes that occur.",
+                        "Assisting with documentation for the final report of the activity",
+                        "Met with partners to provide guidance on how to use the web application."
+                    ]
+                }
+            },
+            {
+                "title": "Head of enterpreneurship division HMSI ITS (Saturasi)",
+                "periode": "Jan 2022 - Dec 2022",
+                "info": {
+                    "title": "Details",
+                    "caption": [
+                        "Prepare activity plans and work programs as well as funding budgeting plans for the division for one year management period.",
+                        "Divide tasks based on activities to staff and supervise their implementation during the management period.",
+                        "Lead weekly meetings to monitor the progress of task implementation from staff members."
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "command": "skill",
+        "description": "-- to see list of my achieved skills",
+        "content": [
+            {
+                "title": "Hard Skills",
+                "info": [
+                    {
+                        "title": "Web Development",
+                        "caption": "HTML, CSS, Bootstrap, Tailwind"
+                    },
+                    {
+                        "title": "Programming Language",
+                        "caption": "Javascript, PHP, GO"
+                    },
+                    {
+                        "title": "Relational Database System",
+                        "caption": "MySQL, PostgreSQL, SQL Server"
+                    },
+                    {
+                        "title": "Non-Relational Database System",
+                        "caption": "MongoDB, Firestore, Redis, Neo4j"
+                    },
+                    {
+                        "title": "Framework",
+                        "caption": "Express JS, React JS, Next JS, Laravel, Gin"
+                    },
+                    {
+                        "title": "API",
+                        "caption": "RESTful, GraphQL"
+                    },
+                    {
+                        "title": "Google Cloud Platform",
+                        "caption": "CloudSQL, AlloyDB, Firebase, VM Instance Deployment, VPC Configuration"
+                    },
+                    {
+                        "title": "Event Driven",
+                        "caption": "Pub-sub, message queue"
+                    },
+                    {
+                        "title": "SDLC",
+                        "caption": "ICONIX Process, Agile Scrum, Waterfall"
+                    },
+                    {
+                        "title": "OS",
+                        "caption": "Linux, Docker"
+                    },
+                    {
+                        "title": "Tools",
+                        "caption": "GIT, Postman, JMeter"
+                    },
+                    {
+                        "title": "Deisgn",
+                        "caption": "Figma, Photoshop, Miro"
+                    }
+                ]
+            },
+            {
+                "title": "Soft Skills",
+                "info": [
+                    {
+                        "title": "Creative & Innovative"
+                    },
+                    {
+                        "title": "Fast Learner & Adapt"
+                    },
+                    {
+                        "title": "Communication & Negotiation"
+                    },
+                    {
+                        "title": "Problem Solver"
+                    },
+                    {
+                        "title": "Teamwork & Collaboration"
+                    }
+                ]
+            },
+            {
+                "title": "Language",
+                "info": [
+                    {
+                        "title": "Indonesia (Native Proficiency)"
+                    },
+                    {
+                        "title": "English (Working Proficiency)"
+                    },
+                    {
+                        "title": "Japanese (Basic Proficiency)"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "command": "social",
+        "description": "-- to connect with my social media",
+        "content": [
+            {
+                "title": "Linkedin",
+                "info": "https://www.linkedin.com/in/farhan-septiadi/"
+            },
+            {
+                "title": "Github",
+                "info": "https://www.linkedin.com/in/farhan-septiadi/"
+            },
+            {
+                "title": "Instagram",
+                "info": "https://instagram.com/farhan_sep"
+            }
+        ]
+    },
+    {
+        "command": "source",
+        "description": "-- to see this terminal portfolio source code"
+    },
+    {
+        "command": "clear",
+        "description": "-- to clear terminal"
+    }
+]
