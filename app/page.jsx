@@ -53,7 +53,7 @@ export default function Home() {
       setInput('');
       return;
     } else {
-      newOutput = <p>Command not found. Type <span className="text-slate-300">'help'</span> for available commands.</p>;
+      newOutput = <p>Command not found. Type <span className="text-slate-300">{'help'}</span> for available commands.</p>;
     }
     setOutput(newOutput)
     setHistory((prevHistory) => [...prevHistory, { input, output: newOutput }])
