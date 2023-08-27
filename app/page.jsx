@@ -1,5 +1,5 @@
 'use client'
-import React, { useState } from "react"
+import React, { useState,useRef,useEffect } from "react"
 import Intro from "./components/Intro";
 import Nav from "./components/Nav";
 import Help from "./components/Help";
@@ -60,6 +60,12 @@ export default function Home() {
     setInput('')
   }
 
+  const historyEndRef = useRef(null);
+  const scrollToBottom = () => {
+    historyEndRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+  useEffect(scrollToBottom, [history]);
+
   const renderHistory = () => {
     if (history.length === 0) {
       return null
@@ -85,6 +91,7 @@ export default function Home() {
         <div className='container p-1'>
           <Intro />
           {renderHistory()}
+          <div ref={historyEndRef} />
         </div>
       </section>
       <footer className='font-ubuntu text-white bg-zinc-800 rounded-b-xl sticky bottom-0 z-50'>
