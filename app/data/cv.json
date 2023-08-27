@@ -351,7 +351,13 @@
     },
     {
         "command": "source",
-        "description": "-- to see this terminal portfolio source code"
+        "description": "-- to see this terminal portfolio source code",
+        "content": [
+            {
+                "title": "Repository",
+                "info": "https://github.com/suzuya26/ala-terminal-portfolio"
+            }
+        ]
     },
     {
         "command": "clear",

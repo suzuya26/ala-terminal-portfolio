@@ -11,6 +11,7 @@ import Project from "./components/Project";
 import Organization from "./components/Organization";
 import Skill from "./components/Skill";
 import Social from "./components/Social";
+import Source from "./components/Source";
 
 export default function Home() {
 
@@ -45,6 +46,8 @@ export default function Home() {
       newOutput = <Skill />
     } else if (input === 'social') {
       newOutput = <Social />
+    } else if (input === 'source') {
+      newOutput = <Source />
     } else if (input === 'clear') {
       setHistory([]);
       setInput('');
