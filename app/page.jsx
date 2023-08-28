@@ -27,28 +27,30 @@ export default function Home() {
     e.preventDefault();
     setOutput('');
 
+    const cleanedInput = input.toLowerCase().split(' ').join('')
+
     let newOutput = ''
-    if (input === 'help') {
+    if (cleanedInput === 'help') {
       newOutput = <Help />
-    } else if (input === 'about') {
+    } else if (cleanedInput === 'about') {
       newOutput = <About />
-    } else if (input === 'education') {
+    } else if (cleanedInput === 'education') {
       newOutput = <Education />
-    } else if (input === 'experience') {
+    } else if (cleanedInput === 'experience') {
       newOutput = <Work />
-    } else if (input === 'bootcamp') {
+    } else if (cleanedInput === 'bootcamp') {
       newOutput = <Bootcamp />
-    } else if (input === 'project') {
+    } else if (cleanedInput === 'project') {
       newOutput = <Project />
-    } else if (input === 'organization') {
+    } else if (cleanedInput === 'organization') {
       newOutput = <Organization />
-    } else if (input === 'skill') {
+    } else if (cleanedInput === 'skill') {
       newOutput = <Skill />
-    } else if (input === 'social') {
+    } else if (cleanedInput === 'social') {
       newOutput = <Social />
-    } else if (input === 'source') {
+    } else if (cleanedInput === 'source') {
       newOutput = <Source />
-    } else if (input === 'clear') {
+    } else if (cleanedInput === 'clear') {
       setHistory([]);
       setInput('');
       return;
